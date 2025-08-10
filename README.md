@@ -9,7 +9,7 @@ SPAIDO BOT
 
 🚀 1. Fork the Repository
 
-Click the button below to fork IMRAN-BOT repository to your GitHub account.
+Click the button below to fork SPAIDO-BOT repository to your GitHub account.
 
 FORK REPO
 
