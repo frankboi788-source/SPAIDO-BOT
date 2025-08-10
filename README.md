@@ -1,9 +1,9 @@
 # SPAIDO-BOT
 🤖 SPAIDO-BOT – The Ultimate Multi-Device WhatsApp Bot
 
-🤖✨ Imran
+🤖✨ SPAIDO
 Typing SVG
-IMRAN BOT
+SPAIDO BOT
 ---
 🌟 DEPLOYMENT GUIDE 🌟
 
