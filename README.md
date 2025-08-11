@@ -18,11 +18,7 @@ https://github.com/bigspaido/SPAIDO-BOT/forks
 
 ✅ When you run your bot on platforms like bot-hosting.net or a VPS, the terminal will say put your number, enter your number and you'll receive pair code. !
 
-copy and paste that code in your Whatsapp and boom 💥 your bot is now connected. No need to go anywhere else. . 😄
-
-💾 3. Download Bot Zip
-
-Download ZIP
+copy and paste that code in your Whatsapp and boom 💥 your bot is now conhttps://github.com/bigspaido/SPAIDO-BOT/archive/refs/heads/main.ziphttps://github.com/bigspaido/SPAIDO-BOT/archive/refs/heads/main.zip
 
 🛠️ 4. Deployment Help
 Watch the tutorial and deploy your bot easily.
