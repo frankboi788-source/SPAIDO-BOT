@@ -1,4 +1,4 @@
-# SPAIDO-BOT
+REPOOPAIDO-BOT
 🤖 SPAIDO-BOT – The Ultimate Multi-Device WhatsApp Bot
 
 🤖✨ SPAIDO
@@ -11,7 +11,7 @@ SPAIDO BOT
 
 Click the button below to fork SPAIDO-BOT repository to your GitHub account.
 
-FORK REPO
+https://github.com/bigspaido/SPAIDO-BOT/forks
 
 🧾 2. No Need for Manual Pair Code Setup!
 🧠 You don't need to visit any external pairing link!
