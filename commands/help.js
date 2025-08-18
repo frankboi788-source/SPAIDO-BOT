@@ -25,83 +25,83 @@ async function helpCommand(sock, chatId, message) {
     const uptimeFormatted = formatTime(process.uptime());
 
     const helpMessage = `
-┏━━━━━━━━━━━━━━━━━━━━━━┓
-┃ 🤖 *SPAIDO-BOT COMMAND MENU* 🤖
-┗━━━━━━━━━━━━━━━━━━━━━━┛
+╔═══ ✦•❁•✦ ═══╗
+🚀  SPAIDO BOT MENU  🚀
+╚═══ ✦•❁•✦ ═══╝
 
-📍 *Owner:* ${settings.botOwner}
-⏳ *Uptime:* ${uptimeFormatted}
-🕐 *Time:* ${new Date().toLocaleString()}
-⚡ *Speed:* ${ping}ms
-🛠️ *Version:* ${settings.version}
+📍 *Owner:* ${settings.botOwner}  
+⏳ *Uptime:* ${uptimeFormatted}  
+🕰️ *Time:* ${new Date().toLocaleString()}  
+⚡ *Speed:* ${ping}ms  
+💾 *Version:* ${settings.version}  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-📂 *Owner Commands*
-🔒 .ban | .unban | .promote | .demote
-🔕 .mute | .unmute | .delete | .kick
-⚠️ .warnings | .warn | .antilink | .antibadword
-🧹 .clear | .tag | .tagall | .chatbot
-🔗 .resetlink | .welcome | .goodbye
+✦••┈┈┈┈┈┈┈┈••✦  
+🛡 *Owner Commands*  
+🎯 .ban | 🪄 .unban | 🎖 .promote | 🪬 .demote  
+🔇 .mute | 📢 .unmute | 🗑 .delete | 🚪 .kick  
+🚫 .warnings | ⚠ .warn | 🔗 .antilink | 🛑 .antibadword  
+🧽 .clear | 🏷 .tag | 🌐 .tagall | 🤖 .chatbot  
+🔄 .resetlink | 👋 .welcome | 📴 .goodbye  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🌐 *General Commands*
-📜 .menu | 📶 .ping | ⏱️ .runtime | 🔊 .tts
-👑 .owner | 😂 .joke | 💬 .quote | 🧠 .fact
-🌦️ .weather | 📰 .news | 💌 .attp | 🎵 .lyrics
-🎱 .8ball | ℹ️ .groupinfo | 👮 .admins | 🔍 .jid
-📸 .ss | 🌍 .trt | 📞 .vv
+✦••┈┈┈┈┈┈┈┈••✦  
+🌏 *General Commands*  
+📋 .menu | 📡 .ping | ⏳ .runtime | 🗣 .tts  
+👤 .owner | 🤡 .joke | 💭 .quote | 🧩 .fact  
+☁ .weather | 📰 .news | 🎀 .attp | 🎼 .lyrics  
+🎯 .8ball | 🏷 .groupinfo | 🛂 .admins | 🔎 .jid  
+📷 .ss | 🌍 .trt | 📞 .vv  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-⚙️ *Settings Commands*
-🌐 .public | 🔐 .private | 🟢 .autostatus
-📖 .autoread | 🧹 .clearsession | 🛡️ .antidelete
-🧼 .cleartmp | 💬 .autoreact | 🖼️ .getpp | 📸 .setpp
-📜 .autobio | ⌨️ .autotyping | 🎙️ .autorecording
+✦••┈┈┈┈┈┈┈┈••✦  
+⚙ *Settings Commands*  
+🌐 .public | 🔒 .private | 🟢 .autostatus  
+📖 .autoread | 🗑 .clearsession | 🛡 .antidelete  
+🧼 .cleartmp | 💬 .autoreact | 🖼 .getpp | 🖌 .setpp  
+📜 .autobio | ⌨️ .autotyping | 🎙 .autorecording  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🎨 *Sticker Commands*
-🌀 .blur | 🖼️ .simage | 🌟 .sticker | 🐯 .tgsticker
-🤣 .meme | 🎯 .take | 🔀 .emojimix
+✦••┈┈┈┈┈┈┈┈••✦  
+🎨 *Sticker Commands*  
+🌪 .blur | 🖼 .simage | ✨ .sticker | 🐉 .tgsticker  
+🤣 .meme | 🎯 .take | 🌀 .emojimix  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🎮 *Game Commands*
-❌⭕ .tictactoe | 🎯 .hangman | ❓ .guess
-🧠 .trivia | ✍️ .answer | 🤐 .truth | 😈 .dare
+✦••┈┈┈┈┈┈┈┈••✦  
+🎮 *Game Commands*  
+❌ .tictactoe | 🎯 .hangman | ❓ .guess  
+🧠 .trivia | ✍ .answer | 🤐 .truth | 😈 .dare  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🧠 *AI & Search*
-🤖 .gpt | 💡 .gptgo | 🧬 .gemini | 🧠 .flux
-🎨 .imagine
+✦••┈┈┈┈┈┈┈┈••✦  
+🧠 *AI & Search*  
+🤖 .gpt | 💡 .gptgo | 🧬 .gemini | 🎯 .flux  
+🖌 .imagine  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🎭 *Fun Commands*
-💘 .compliment | 😡 .insult | 😍 .flirt
-📜 .shayari | 🌙 .goodnight | 🌹 .roseday
-🎭 .character | ☠️ .wasted | 🚢 .ship
-😈 .simp | 🤪 .stupid | 🧠 .brainwash | 🐔 .detect
-👻 .ghost | 🧠 .mindread | 💩 .toilet | 📞 .callmom
-💘 .crush | 🪞 .mirror | 🛐 .auntyalert | 💣 .explode
-💻 .spaidohack | 🔓 .unhack | 🕵️ .spy
-💨 .bombgas | 🛏️ .bedrate | 🤰 .pregnancycheck
-💘 .lovecheck | 🌈 .gaycheck | 🏳️‍🌈 .gaydetector
-🔥 .hornycheck | 😻 .pussylover
+✦••┈┈┈┈┈┈┈┈••✦  
+🎭 *Fun Commands*  
+💌 .compliment | 😤 .insult | 💘 .flirt  
+📜 .shayari | 🌜 .goodnight | 🌹 .roseday  
+🎭 .character | ☠ .wasted | 🚢 .ship  
+😏 .simp | 🤪 .stupid | 🧠 .brainwash | 🐥 .detect  
+👻 .ghost | 🧙 .mindread | 💩 .toilet | 📞 .callmom  
+💘 .crush | 🪞 .mirror | 🛐 .auntyalert | 💣 .explode  
+💻 .spaidohack | 🔓 .unhack | 🕵 .spy  
+💨 .bombgas | 🛏 .bedrate | 🤰 .pregnancycheck  
+❤️ .lovecheck | 🌈 .gaycheck | 🏳️‍🌈 .gaydetector  
+🔥 .hornycheck | 🐱 .pussylover  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🧰 *Maker Menu*
-🔥 .fire | ⚡ .thunder | ❄️ .ice | 🌫️ .snow
-👹 .devil | 💜 .purple | 💡 .light | 💻 .matrix
-🎬 .arena | 👾 .hacker | 🌿 .leaves | 💥 .glitch
-🌌 .metallic | 🖤 .blackpink | ✨ .neon | 🚫 .1917
-🎭 .impressive | 🏖️ .sand
+✦••┈┈┈┈┈┈┈┈••✦  
+🧰 *Maker Menu*  
+🔥 .fire | ⚡ .thunder | ❄ .ice | 🌫 .snow  
+👹 .devil | 💜 .purple | 💡 .light | 💻 .matrix  
+🎬 .arena | 👾 .hacker | 🌿 .leaves | 💥 .glitch  
+🌌 .metallic | 🖤 .blackpink | ✨ .neon | 🚫 .1917  
+🎭 .impressive | 🏖 .sand  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🔍 *Search & Download*
-🎵 .play | 🎶 .song | 🎥 .video
-📸 .instagram | 📘 .facebook | 🎵 .tiktok | 🔽 .ytmp4
+✦••┈┈┈┈┈┈┈┈••✦  
+🔍 *Search & Download*  
+🎵 .play | 🎶 .song | 📽 .video  
+📸 .instagram | 📕 .facebook | 🎵 .tiktok | 📥 .ytmp4  
 
-━━━━━━━━━━━━━━━━━━━━━━━
-💻 *GitHub Commands*
-🔗 .git | 🧑‍💻 .github | 📦 .sc | 📂 .script
+✦••┈┈┈┈┈┈┈┈••✦  
+💻 *GitHub Commands*  
+🔗 .git | 🧑‍💻 .github | 📦 .sc | 📂 .script  
 📁 .repo | 🌀 .gitclone
 `;
 
